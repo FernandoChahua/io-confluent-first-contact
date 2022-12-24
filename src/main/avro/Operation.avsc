@@ -1,0 +1,28 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "doc": "The int type is a 32-bit signed integer.",
+      "name": "operationType",
+      "type": "string"
+    },
+    {
+      "doc": "The double type is a double precision (64-bit) IEEE 754 floating-point number.",
+      "name": "amount",
+      "type": "string"
+    },
+    {
+      "doc": "The string is a unicode character sequence.",
+      "name": "username",
+      "type": "string"
+    },
+    {
+      "doc": "The string is a unicode character sequence.",
+      "name": "sessionId",
+      "type": "string"
+    }
+  ],
+  "name": "Operation",
+  "namespace": "com.fernandochahua.confluent",
+  "type": "record"
+}
